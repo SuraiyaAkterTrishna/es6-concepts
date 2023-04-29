@@ -33,3 +33,8 @@ const elementHTML = `
 // 4. Arrow function 
 const doubleIt = x => x * 2;
 const calculateSalary2 = (salary , tax , bonus) => salary - salary * tax + bonus;
+
+// 5. spread operator
+const friendsAge = [11, 22, 33, 44, 55, 66];
+const newAges = [...friendsAge, 77, 88, 99];
+
