@@ -38,3 +38,6 @@ const calculateSalary2 = (salary , tax , bonus) => salary - salary * tax + bonus
 const friendsAge = [11, 22, 33, 44, 55, 66];
 const newAges = [...friendsAge, 77, 88, 99];
 
+// 6. destructuring 
+const {x, y, z} = {x: 45, y: 12, z: 53, name: 'Abul'};
+const [a, b, c, ...r] = [12, 34, 53, 64, 76];
