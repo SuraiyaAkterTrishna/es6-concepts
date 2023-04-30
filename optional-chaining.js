@@ -1,20 +1,20 @@
-const users = [ {id: 1, name: 'abul', job: 'doctor'} ]
-
+const users = [
+    {id: 1, name: 'abul', job: 'doctor'}
+];
 // console.log(users[0].name);
 
 const data = {
-    count: 5000,
+    count : 5000, 
     data: [
         {id: 1, name: 'babul', job: 'leader'},
-        {id: 2, name: 'dabul', job: 'leader'},
+        {id: 2, name: 'dabul', job: 'cadar'},
     ]
 }
-const firstJob = data.data[0].job;
-// console.log(firstJob);
+console.log(data.data[0].job);
 
 const user = {
     id: 5001,
-    name: 'Thomas alba edison',
+    name: 'Thomas Alva edison', 
     address: {
         street: {
             first: '35/A kochukhet lane',
@@ -24,7 +24,6 @@ const user = {
         postOffice: 'cantonment',
         city: 'Dhaka'
     }
-} 
-
-const userFloor = user.address?.stret?.second;
+}
+const userFloor = user.address?.street?.second;
 console.log(userFloor);
